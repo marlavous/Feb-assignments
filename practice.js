@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-us">
+<meta charset="UTF-8">
+	<title>practice js</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+	var pref = prompt("Do you like steak")
+
+	if pref = true
+		alert("Here is a steak taco!")
+	else 
+		alert("Here is a stit-fry")
+
+	</script>
+</body>
+</html>
