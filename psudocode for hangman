@@ -1,0 +1,21 @@
+- array for words
+
+- randomly choose array
+- once array is chosen, make it unable to chosen again
+
+
+
+- user chooses a letter
+
+-if the letter is in the array it is displayed in the same index position
+
+- if the letter is not in the array display part of the hangman
+
+- repeat until the array is full
+
+- if they finish the array before the hangman is complete user wins
+
+- if hangman is complete before array is finished computer wins
+
+
+
