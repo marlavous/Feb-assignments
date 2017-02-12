@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trivia game</title>
+</head>
+<body>
+	<h1> Answer the questions "t" for true or "f" for false </h1>
+
+	<div id="div1"></div>
+
+	<script>
+
+	
+	var questions = [
+	{q: 'is the sky blue?', answer: true},
+	{q: 'is the grass blue?', answer: false},
+	{q: 'is the water blue?', answer: true},
+	{q: 'are apples yellow?', answer: true},
+	];
+
+	var q = 'something else'
+
+	function quiz(listOfQuestions) {
+		var question = listOfQuestions[0]
+		console.log(listOfQuestions)
+		alert(question.q);
+		// var userGuess = event.key;
+		//if userGuess === true{
+		//	alert(answer)
+		//}
+		var div = document.getElementById('div1')
+		// console.log()
+		div.innerHTML = 'booooooom'
+	}
+
+	quiz(questions)
+
+     
+        
+        
+          
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+	</script>
+	
+</body>
+</html>
