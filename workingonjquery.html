@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cool page</title>
+	<style>
+
+	.boringstyle{
+		color: green;
+		background-color: blue;
+		border: 1px black;
+	} 
+
+	.fancystyle{
+		color:pink;
+		border: 10px dotted red;
+		background-color: silver;
+	}
+
+
+	</style>
+
+
+</head>
+<body>
+	<h1>practice</h1>
+	<div id = "myDiv">
+		I start like this...
+		
+	</div>
+	<script>
+	
+		var myElement = document.getElementById("myDiv");
+		console.log(myElement);
+		myElement.innerHTML = '<p>I end like this<p>';
+		console.log(myElement.innerHTML)
+
+		//document.querySelector('#myDiv')
+		console.log(myElement.innerHTML);
+		myElement.setAttribute('class', 'fancystyle"')
+
+		var newDiv = document.createElement('div');
+		newDiv.innerHTML = "new content";
+		myElement.appendChild(newDiv)
+		
+
+
+
+
+
+
+	</script>
+</body>
+</html>
